@@ -48,15 +48,6 @@ async function main() {
 
 }
 
-//usdt   149376720600308
-//dai    500000764750
-
-//after
-//usdt  149376718595593
-//dai   500002764750
-
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
