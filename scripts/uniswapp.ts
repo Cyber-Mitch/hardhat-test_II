@@ -4,8 +4,8 @@ async function main() {
     const WETHAddr = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
   const DAIAddress = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
   const UNIRouter = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
-  const amountOut = 3000;
-  const amountInMax = 1;
+  const amountOut = 4e6;
+  const amountInMax = 5e6;
 
   const helpers = require("@nomicfoundation/hardhat-network-helpers");
   const WethHolder = "0x0716a17FBAeE714f1E6aB0f9d59edbC5f09815C0"
